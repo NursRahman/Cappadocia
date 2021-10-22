@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: "Fleur De Leah";
+    color: #E2AB3F;
+}
+
+header{
+    max-width: 1920px;
+    height: 1080px;
+    background-image: url('/image/head.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.navigation{
+    display: flex;
+    width: 80%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+
+}
+nav .nav-link{
+    /* border: 1px solid black; */
+    color: black;
+}
+
+
+
+.telefon{
+    display: flex;
+    width: 20%;
+    align-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.telefon img{
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+}
+
+.container{
+    max-width: 1920px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.cappalogo{
+    width: 70%;
+    height: auto;
+    margin: 10% 15%;
+}
+.cappalogo h2{
+    font-size: 270px;
+    color: black;
+    /* border: 1px solid black; */
+}
+.extour{
+    display: flex;
+    width: 40%;
+    /* border: 1px solid black; */
+    margin-top: -16%;
+    margin-left: 50%;
+}
+.extour h5{
+    font-size: 66px;
+    font-family: "Roboto Condensed";
+    font-style: italic;
+}
+
+footer{
+    max-width: 1920px;
+    height: 1080px;
+    background-image: url('/image/foot.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.foot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.shar{
+    background-image: url('/image/shar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border: 1px solid black; */
+    height: 527px;
+    width: 356px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.sharr{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    margin-top: 10%;
+    margin-bottom: 30%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
+.sharr h2{
+    font-size: 90px;
+}
+.mail{
+    display: flex;
+    width: 50%;
+    align-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.dream h2{
+    color: black;
+    font-size: 100px;
+}
+.sha{
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 13%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+a:link{
+    color: red;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+.hot1, .hot2{
+    width: 50%;
+}
+
+.hot1{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -60px;
+}
+.box{
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+}
+.sultan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fairy{
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.tail{
+    padding-right: 20px;
+}
+#carouselExampleControls{
+    
+}
+.slid{
+    width: 50%;
+}
+
+.teks{
+    width: 50%;
+    /* height: max-content; */
+    padding-left: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tekss{
+    width: 50%;
+    /* height: max-content; */
+    padding-left: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ft{
+    padding: 5% 0;
+}
+
+.ft h2{
+    font-size: 100px;
+    padding-left: 15%;
+}
+.tripp{
+    margin-top: 100px;
+    /* padding-left: 30%; */
+    /* margin-right: -160px; */
+}
+.tekss h2{ 
+    font-size: 100px;
+    margin-left: 20px;
+    margin-right: -20%;
+}
+.slidd{
+    width: 50%;
+    /* margin-left: -160px; */
+    /* margin-right: -160px; */
+}
